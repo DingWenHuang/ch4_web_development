@@ -11,9 +11,11 @@
     <title>Title</title>
 </head>
 <body>
-<form action="http://localhost:8080/formHandling" method="get">
+<form action="http://localhost:8080/postBook" method="post">
     <%-- 表示這個表格我們按交出的時候，會用get的方式送到前述的網址去 --%>
-    <%//我是註解%>
+    <label>Book Id:</label>
+    <input type="number" name="bookId">
+    <br>
     <label>Book name:</label>
     <input type="text" name="name">
     <br>
