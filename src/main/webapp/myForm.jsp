@@ -11,8 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-<form action="http://localhost:8080/postBook" method="post">
-    <%-- 表示這個表格我們按交出的時候，會用get的方式送到前述的網址去 --%>
+<form action="http://localhost:8080/cookieRegis" method="get">
+
     <label>Book Id:</label>
     <input type="number" name="bookId">
     <br>
